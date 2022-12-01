@@ -5,7 +5,7 @@ import { SidebarContainer } from "./styles"
 export function Sidebar() {
   return (
     <SidebarContainer>
-      <Link to="/"> PAGE D'ACCUEIL</Link>
+      <NavLink to="/"> PAGE D'ACCUEIL</NavLink>
 
       <NavLink to="/cims">CIMS</NavLink>
       <NavLink to="/ccs">CCS</NavLink>

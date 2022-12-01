@@ -13,11 +13,13 @@ export const SidebarContainer = styled.div`
   a {
     text-decoration: none;
     color: black;
-    font-size: 1.42rem;
+    font-size: 1.6rem;
+    font-weight: 500;
 
     &.active{
       color:${(props) => props.theme["blue-500"]};
-      font-weight: bold;
+      font-weight: 700;
+
     }
   }
 
