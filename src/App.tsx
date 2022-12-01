@@ -5,13 +5,15 @@ import { defaultTheme } from "./styles/themes/default"
 import { Worker } from "@react-pdf-viewer/core"
 import { Router } from "./Router"
 import { BrowserRouter } from "react-router-dom"
+import "./lib/pdf.worker.js"
 
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
       <PdfProvider>
-      <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.0.279/build/pdf.worker.min.js">          <BrowserRouter>
+      <Worker workerUrl="./lib/pdf.worker.js">
+          <BrowserRouter>
             <Router />
           </BrowserRouter>
         </Worker>
