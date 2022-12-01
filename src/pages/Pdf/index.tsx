@@ -13,7 +13,7 @@ export function Pdf() {
 
   const navigate = useNavigate()
 
-  const file = `/public/${pdf}`
+  const file = `/pdf/${pdf}`
 
   function handleReturn() {
     navigate(-1)
