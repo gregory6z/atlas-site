@@ -32,7 +32,7 @@ export function Ccs() {
         <Sidebar />
         <MainContent>
           <ContentBox>
-            <h2>CARTE CIRCULATION SECURISÉ</h2>
+            <h2>CARTE CIRCULATION SÉCURISÉE</h2>
 
             <div className="buttons">
               <Button title="Guide CCS" onClick={handlePdfGuideCcs} />

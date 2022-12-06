@@ -29,11 +29,11 @@ export function Gite() {
         <Sidebar />
         <MainContent>
           <ContentBox>
-            <h2>GITE D'ETAPE</h2>
+            <h2>GÎTE D'ETAPE</h2>
 
             <div className="buttons">
               <Button
-                title="Localization du Gite d'etape"
+                title="Localisation du Gite d'etape"
                 onClick={handlePdFGite}
               />
             </div>
