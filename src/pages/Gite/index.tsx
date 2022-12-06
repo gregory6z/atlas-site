@@ -33,7 +33,7 @@ export function Gite() {
 
             <div className="buttons">
               <Button
-                title="Localisation du Gite d'etape"
+                title="Localisation du Gîte d'etape"
                 onClick={handlePdFGite}
               />
             </div>
