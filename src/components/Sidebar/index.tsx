@@ -15,7 +15,7 @@ export function Sidebar() {
       <NavLink to="/vaguemestre">VAGUEMESTRE</NavLink>
       <NavLink to="/escapade">ESCAPADE LOISIRS</NavLink>
       <NavLink to="/fdligne">FD@LIGNE</NavLink>
-      <NavLink to="/gite">GITE D'ETAPE</NavLink>
+      <NavLink to="/gite">GÎTE D'ETAPE</NavLink>
       <NavLink to="/eureka">EUREKA</NavLink>
     </SidebarContainer>
   )

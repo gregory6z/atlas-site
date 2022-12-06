@@ -53,7 +53,7 @@ export function Demenagement() {
                 onClick={handleDroitBagageNav}
               />
               <Button
-                title="Plataforme déménagement PFMD"
+                title="Plateforme déménagement PFMD"
                 onClick={handlePFMDNav}
               />
               <NavLink to="/demenagement/metropole">
