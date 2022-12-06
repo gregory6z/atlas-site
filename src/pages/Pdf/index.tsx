@@ -1,6 +1,7 @@
 import { Viewer } from "@react-pdf-viewer/core"
 
 import "@react-pdf-viewer/core/lib/styles/index.css"
+
 import { ArrowLeft } from "phosphor-react"
 import { useContext } from "react"
 import { useNavigate } from "react-router-dom"
