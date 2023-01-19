@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { ArrowLeft, Envelope, Phone } from "phosphor-react"
+import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"
 import styled from "styled-components"
 import { Sidebar } from "../../components/Sidebar"
@@ -14,27 +15,27 @@ export function Vaguemestre() {
   function handleReturnPage() {
     navigate(-1)
   }
+
+  const { t } = useTranslation()
+
   return (
     <HomeContainer>
       <HomeContentHeader>
         <Sidebar />
         <MainContent>
           <ContentBox>
-            <h2>VAGUEMESTRE</h2>
+            <h2>{t("postOffice")}</h2>
 
             <VaguemestreContainer>
-              <h2>Horaires </h2>
-              <li>Lundi au Vendredi 15:00 - 17:00</li>
+              <h2>{t("postSchedules")}</h2>
+              <li>{t("postSchedules1")}</li>
 
-              <h2>Colis privés </h2>
-              <li>
-                Merci de privilégier les livraisons en point relais en milieu
-                civil
-              </li>
+              <h2>{t("packages")}</h2>
+              <li>{t("packages1")}</li>
             </VaguemestreContainer>
 
             <ButtonRetour onClick={handleReturnPage}>
-              <ArrowLeft weight="bold" /> Retour
+              <ArrowLeft weight="bold" /> {t("retur")}
             </ButtonRetour>
           </ContentBox>
         </MainContent>
@@ -44,11 +45,16 @@ export function Vaguemestre() {
         <div className="copyright">
           <h5>Copyright © all rights reserved</h5>
           <h5>Développé par 1CL PRAXEDES Gregory</h5>
-
         </div>
         <div>
-        <h3><Phone size={18} weight="fill" /> 04 42 73 34 82 / 864 132 94 82</h3>
-        <h3><Envelope size={18} weight="fill" />  gsbdd-mrs-carpiagne-atlas.accueil.fct@intradef.gouv.fr</h3></div>
+          <h3>
+            <Phone size={18} weight="fill" /> 04 42 73 34 82 / 864 132 94 82
+          </h3>
+          <h3>
+            <Envelope size={18} weight="fill" />{" "}
+            gsbdd-mrs-carpiagne-atlas.accueil.fct@intradef.gouv.fr
+          </h3>
+        </div>
       </div>
     </HomeContainer>
   )

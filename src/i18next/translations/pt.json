@@ -1,0 +1,55 @@
+{
+  "translation": {
+    "home": "PAGINA INICIAL",
+    "retur": "Retornar",
+    "langue":"Idioma",
+
+    "schedules": "Horário de abertura ",
+    "schedules1": "Segunda a sexta",
+    
+    "cims": "CARTE DE IDENTIDADE MILITAR",
+    "cims1": "Informações sobre a carta CIMS",
+    "cims2": "Ficha de reflexos da encomenda CIMS",
+
+    "ccs": "CARTA DE CIRCULAÇÃO",
+    "ccs1": "Guia CCS",
+    "ccs2": "Guia para o pedido da CCS Familha",
+
+    "om": "ORDEM DE MISSÃO",
+    "om1": "Apresentação de uma ordem de missão",
+    "om2": "Informação de como preencher uma OM",
+
+    "move": "MUDANÇA",
+    "move1": "Transporte de bagagens",
+    "move2": "Direitos de transporte de bagagem",
+    "move3": "Plataforma de mudança PFMD",
+    "move4": "Mudança de cidade",
+    "move5": "Mudança de País",
+    "move6": "A saber",
+    "move7": "Direitos de mudança de país",
+    "move8": "Guia",
+    "move9": "Direitos de mudança de cidade",
+
+    "clothing": "VESTIMENTAS",
+    "clothing1": "Novos procedimentos",
+
+    "postOffice": "CORREIOS",
+    "postSchedules": "Horários",
+    "postSchedules1": "Segunda à Sexta 15:00 - 17:00",
+    "packages": "Encomendas",
+    "packages1": "Obrigado por privilegiar as entregas em pontos de retiradas civis",
+
+    "escapade": "ESCAPADE LAZER",
+    "escapade1": "Instruções para se inscrever",
+    "escapade2": "Beneficie de reduções em lazeres em toda a França",
+    "escapade3": "Basta se inscrever em",
+    "escapade4": "ou",
+
+    "fd1":"Apresentação de usuário",
+    "fd2": "Reencontrar sua senha",
+
+    "gite": "ALOJAMENTO DE TRANSITO",
+    "gite1": "Localização do alojamento de transito"
+
+  }
+}

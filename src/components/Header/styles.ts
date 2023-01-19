@@ -5,6 +5,7 @@ export const HeaderContainer = styled.header`
   width: 100%;
   height: 16vh;
   position: relative;
+  border-bottom: #0369a1 1px solid;
 
   display: flex;
   align-items: center;
@@ -34,4 +35,27 @@ export const HeaderContainer = styled.header`
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .logoLeft {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  }
+`
+
+export const FlagContainer = styled.button`
+  background: transparent;
+  border: 0;
+  width: 12rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 3rem;
+  border-radius: 8px;
+  z-index: 200;
+  font-weight: 700;
+
+  font-size: 1.25rem;
 `

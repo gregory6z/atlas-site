@@ -9,24 +9,22 @@ export const SidebarContainer = styled.div`
   gap: 1.25rem;
   padding-top: 5rem;
   padding-left: 2.5rem;
+  letter-spacing: 0.075rem;
 
   a {
     text-decoration: none;
     color: black;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 500;
 
-    &.active{
-      color:${(props) => props.theme["blue-500"]};
+    &.active {
+      color: ${(props) => props.theme["blue-500"]};
       font-weight: 700;
-
     }
   }
 
-
-
-  .categories{
-    display:flex;
+  .categories {
+    display: flex;
     flex-direction: column;
   }
 `

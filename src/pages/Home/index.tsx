@@ -16,11 +16,16 @@ export function Home() {
         <div className="copyright">
           <h5>Copyright © all rights reserved</h5>
           <h5>Développé par 1CL PRAXEDES Gregory</h5>
-
         </div>
         <div>
-        <h3><Phone size={18} weight="fill" /> 04 42 73 34 82 / 864 132 94 82</h3>
-        <h3><Envelope size={18} weight="fill" />  gsbdd-mrs-carpiagne-atlas.accueil.fct@intradef.gouv.fr</h3></div>
+          <h3>
+            <Phone size={18} weight="fill" /> 04 42 73 34 82 / 864 132 94 82
+          </h3>
+          <h3>
+            <Envelope size={18} weight="fill" />{" "}
+            gsbdd-mrs-carpiagne-atlas.accueil.fct@intradef.gouv.fr
+          </h3>
+        </div>
       </div>
     </HomeContainer>
   )

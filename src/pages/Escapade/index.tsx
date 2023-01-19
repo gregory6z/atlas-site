@@ -11,10 +11,11 @@ import { HomeContainer, HomeContentHeader } from "../Home/styles"
 import escapadeCode from "../../assets/escapade-code.png"
 import { useContext } from "react"
 import { PdfContext } from "../../context"
+import { useTranslation } from "react-i18next"
 
 export function Escapade() {
   const { changePdf } = useContext(PdfContext)
-
+  const { t } = useTranslation()
   const navigate = useNavigate()
 
   function handleReturnPage() {
@@ -32,17 +33,17 @@ export function Escapade() {
         <Sidebar />
         <MainContent>
           <ContentBox>
-            <h2>ESCAPADE LOISIRS</h2>
+            <h2>{t("escapade")}</h2>
 
             <EscapadeContainer>
               <Button
-                title="Instructions pour s'inscrire"
+                title={t("escapade1")}
                 onClick={handleNavEscapadePdf}
               ></Button>
-              <h2>Bénéficie de réductions et loisirs partout en France</h2>
+              <h2>{t("escapade2")}</h2>
               <p>
-                Pour en profiter rendez-vous sur &nbsp;
-                <span>www.escapadeloisirs.fr</span> ou
+                {t("escapade3")} &nbsp;
+                <span>www.escapadeloisirs.fr</span> {t("escapade4")}
               </p>
               <div className="centralize">
                 <img src={escapadeCode} alt="" width="200px" />
@@ -50,7 +51,7 @@ export function Escapade() {
             </EscapadeContainer>
 
             <ButtonRetour onClick={handleReturnPage}>
-              <ArrowLeft weight="bold" /> Retour
+              <ArrowLeft weight="bold" /> {t("retur")}
             </ButtonRetour>
           </ContentBox>
         </MainContent>
@@ -60,11 +61,16 @@ export function Escapade() {
         <div className="copyright">
           <h5>Copyright © all rights reserved</h5>
           <h5>Développé par 1CL PRAXEDES Gregory</h5>
-
         </div>
         <div>
-        <h3><Phone size={18} weight="fill" /> 04 42 73 34 82 / 864 132 94 82</h3>
-        <h3><Envelope size={18} weight="fill" />  gsbdd-mrs-carpiagne-atlas.accueil.fct@intradef.gouv.fr</h3></div>
+          <h3>
+            <Phone size={18} weight="fill" /> 04 42 73 34 82 / 864 132 94 82
+          </h3>
+          <h3>
+            <Envelope size={18} weight="fill" />{" "}
+            gsbdd-mrs-carpiagne-atlas.accueil.fct@intradef.gouv.fr
+          </h3>
+        </div>
       </div>
     </HomeContainer>
   )

@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { ArrowLeft, Envelope, Phone } from "phosphor-react"
 import { useContext } from "react"
+import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"
 import { Button } from "../../components/Button"
 import { Sidebar } from "../../components/Sidebar"
@@ -34,21 +35,23 @@ export function DemenagementM() {
     navigate("/pdf")
   }
 
+  const { t } = useTranslation()
+
   return (
     <HomeContainer>
       <HomeContentHeader>
         <Sidebar />
         <MainContent>
           <ContentBox>
-            <h2>DÉMÉNAGEMENT METROPOLE</h2>
+            <h2>{String(t("move4")).toUpperCase()}</h2>
 
             <div className="buttons">
-              <Button title="À savoir" onClick={handleMetAsavoirNav} />
-              <Button title="Droits métropole" onClick={handleMetDroitsNav} />
-              <Button title="Guide" onClick={handleMetGuideNav} />
+              <Button title={t("move6")} onClick={handleMetAsavoirNav} />
+              <Button title={t("move4")} onClick={handleMetDroitsNav} />
+              <Button title={t("move8")} onClick={handleMetGuideNav} />
             </div>
             <ButtonRetour onClick={handleReturnPage}>
-              <ArrowLeft weight="bold" /> Retour
+              <ArrowLeft weight="bold" /> {t("retur")}
             </ButtonRetour>
           </ContentBox>
         </MainContent>
@@ -58,11 +61,16 @@ export function DemenagementM() {
         <div className="copyright">
           <h5>Copyright © all rights reserved</h5>
           <h5>Développé par 1CL PRAXEDES Gregory</h5>
-
         </div>
         <div>
-        <h3><Phone size={18} weight="fill" /> 04 42 73 34 82 / 864 132 94 82</h3>
-        <h3><Envelope size={18} weight="fill" />  gsbdd-mrs-carpiagne-atlas.accueil.fct@intradef.gouv.fr</h3></div>
+          <h3>
+            <Phone size={18} weight="fill" /> 04 42 73 34 82 / 864 132 94 82
+          </h3>
+          <h3>
+            <Envelope size={18} weight="fill" />{" "}
+            gsbdd-mrs-carpiagne-atlas.accueil.fct@intradef.gouv.fr
+          </h3>
+        </div>
       </div>
     </HomeContainer>
   )

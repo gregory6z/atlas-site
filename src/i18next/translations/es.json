@@ -1,0 +1,54 @@
+{
+  "translation": {
+    "home": "PAGINA DE INICIO",
+    "lang": "IDIOMA",
+    "retur": "Retornar",
+
+    "schedules": "Horarios de abertura",
+    "schedules1": "Lunes a viernes",
+
+    "cims": "CARTA DE IDENTIDAD MILITAR",
+    "cims1": "Informacion de la carta CIMS", 
+    "cims2": "Ficha reflejo carta CIMS",
+
+    "ccs": "CARTE DE CIRCULACION",
+    "ccs1": "Guia CCS",
+    "ccs2": "Guia para pedir carta de familia",
+
+    "om": "ORDEN DE MISION",
+    "om1": "Presentacion de una OM",
+    "om2": "Informar las condiciones de la mission em la OM",
+
+    "move": "MUDANZA",
+    "move1": "Transporte de bagaje",
+    "move2": "Derecho de transporte de bagajes",
+    "move3": "Plataforma de mudanza PFMD",
+    "move4": "Mudanza territorio frances",
+    "move5": "Mudanza fuera de territorio frances",
+    "move6": "A saber",
+    "move7": "Derecho fuera de territorio frances",
+    "move8": "Guia",
+
+    "clothing": "VESTIMENTA",
+    "clothing1": "Nuevas proceduras",
+
+
+    "postOffice":"CORREO",
+    "postSchedules":"Horarios",
+    "postSchedules1":"Lunes a Viernes 15:00 - 17:00",
+    "packages":"Correo privado",
+    "packages1":"Gracias de privilegiar las entregas a un punto de relé civil",
+
+    "escapade":"ENTRETENIMIENTO",
+    "escapade1": "Instrucciones para la inscription",
+    "escapade2": "Beneficio de reducciónes y entrenimiento en Francia",
+    "escapade3": "Para aprovechar tome cita en",
+    "escapade4": "o",
+
+    "fd1":"Presentacion del espacio administrado",
+    "fd2": "Como encontrar su contraseña",
+
+    "gite": "ALOJAMIENTO DE ETAPA",
+    "gite1": "Localisacion ajojamiento de etapa"
+  }
+}

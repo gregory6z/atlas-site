@@ -11,6 +11,7 @@ export const MainContent = styled.main`
   height: 62vh;
 `
 export const CategoryCardContainer = styled(NavLink)`
+  border: 0.5px solid rgb(218, 218, 218);
   width: 32%;
   height: 45%;
   background: white;
@@ -19,6 +20,12 @@ export const CategoryCardContainer = styled(NavLink)`
   text-align: center;
   text-decoration: none;
   color: black;
+
+  h3 {
+    letter-spacing: 0.075rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.75rem;
+  }
 
   img {
     margin-top: 0.5rem;

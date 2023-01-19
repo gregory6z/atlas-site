@@ -12,7 +12,7 @@ export function App() {
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
       <PdfProvider>
-      <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.0.279/build/pdf.worker.min.js">
+        <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.0.279/build/pdf.worker.min.js">
           <BrowserRouter>
             <Router />
           </BrowserRouter>

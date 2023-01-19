@@ -2,7 +2,7 @@ import { ButtonHTMLAttributes } from "react"
 import styled from "styled-components"
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
-  title: string
+  title: string | null
 }
 
 export function Button({ title, ...rest }: ButtonProps) {
