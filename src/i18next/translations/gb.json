@@ -1,0 +1,54 @@
+{
+  "translation": {
+    "home": "HOME",
+    "lang": "Langage",
+    "retur": "Return",
+
+    "schedules": "Opening hours",
+    "schedules1": "Monday to friday",
+
+    "cims": "MILITARY ID CARD",
+    "cims1": "CIMS Card Information", 
+    "cims2": "CIMS order form",
+
+    "ccs": "CIRCULATION CARD",
+    "ccs1": "Guide CCS",
+    "ccs2": "Family card order",
+
+    "om": "MISSION ORDER",
+    "om1": "Presentation of an Order of mission",
+    "om2": "Fill in the mission conditions in OM",
+
+    "move": "MOVING HOUSE",
+    "move1": "Baggage transport",
+    "move2": "Baggage carriage rights",
+    "move3": "Moving platform PFMD",
+    "move4": "City ​​change",
+    "move5": "Change of country",
+    "move6": "To know",
+    "move7": "Change of country rights",
+    "move8": "Guide",
+
+    "clothing": "CLOTHING",
+    "clothing1": "New procedures",
+
+
+    "postOffice":"Post offices",
+    "postSchedules":"Working hours",
+    "postSchedules1":"Monday to Friday sa15:00 - 17:00",
+    "packages":"Private package",
+    "packages1":"Please give priority to deliveries to a relay point in a civilian environment.",
+
+    "escapade":"ESCAPADE HOBBIES",
+    "escapade1": "Instructions for registering",
+    "escapade2": "Benefit from reductions and leisure activities everywhere in France",
+    "escapade3": "To take advantage of it, go to",
+    "escapade4": "where",
+
+    "fd1":"Presentation of the administered space",
+    "fd2": "Find your password",
+
+    "gite": "STAGE COTTAGE",
+    "gite1": "Location of the du STAGE COTTAGE"
+  }
+}

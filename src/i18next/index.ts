@@ -7,7 +7,7 @@ import frJson from "./translations/fr.json"
 import ptJson from "./translations/pt.json"
 import esJson from "./translations/es.json"
 import ruJson from "./translations/ru.json"
-import engJson from "./translations/eng.json"
+import gbJson from "./translations/gb.json"
 
 export default i18next.use(initReactI18next).init({
   fallbackLng: "fr",
@@ -19,6 +19,6 @@ export default i18next.use(initReactI18next).init({
     es: esJson,
     pt: ptJson,
     ru: ruJson,
-    eng: engJson,
+    gb: gbJson,
   },
 })
