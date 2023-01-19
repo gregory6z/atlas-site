@@ -45,7 +45,7 @@ export function Header() {
           <Dialog.Trigger asChild>
             <FlagContainer>
               {t("langue")}
-              <img src={lang} alt="" width="38px" />
+              <img src={String(lang)} alt="" width="38px" />
             </FlagContainer>
           </Dialog.Trigger>
           <LanguageModal />
