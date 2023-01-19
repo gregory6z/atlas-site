@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const AtlasContainer = styled.div`
   width: 20%;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
 
   p {
     font-size: 1.6rem;
