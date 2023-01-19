@@ -9,12 +9,10 @@ import "react-lazy-load-image-component/src/effects/blur.css"
 
 import * as Dialog from "@radix-ui/react-dialog"
 import { LanguageModal } from "../LanguageModal"
-import { useTranslation } from "react-i18next"
 import { useContext } from "react"
 import { PdfContext } from "../../context"
 
 export function Header() {
-  const { t } = useTranslation()
   const { lang } = useContext(PdfContext)
 
   return (
@@ -44,7 +42,7 @@ export function Header() {
         <Dialog.Root>
           <Dialog.Trigger asChild>
             <FlagContainer>
-              {t("langue")}
+              Langage
               <img src={String(lang)} alt="" width="38px" />
             </FlagContainer>
           </Dialog.Trigger>
