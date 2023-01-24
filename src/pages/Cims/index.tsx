@@ -108,8 +108,9 @@ export const ButtonRetour = styled.div`
   border-radius: 8px;
   color: white;
 
+  font-weight: 500;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 0.5rem;
 `
