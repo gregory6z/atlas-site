@@ -46,16 +46,16 @@ export const HeaderContainer = styled.header`
 export const FlagContainer = styled.button`
   background: transparent;
   border: 0;
-  width: 12rem;
+  width: 14.6rem;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  height: 3rem;
+  height: 4rem;
   border-radius: 8px;
   z-index: 200;
   font-weight: 700;
 
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 `

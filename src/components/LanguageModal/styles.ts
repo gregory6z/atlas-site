@@ -21,7 +21,6 @@ export const Content = styled(Dialog.Content)`
   transform: translate(-50%, -50%);
 
   h2 {
-    margin-top: 1rem;
     margin-bottom: 4rem;
   }
 
