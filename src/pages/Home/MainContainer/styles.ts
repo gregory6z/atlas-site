@@ -8,10 +8,8 @@ export const MainContent = styled.main`
     justify-content: center;
   }
 
-  @media (max-width: 750px) {
-    padding: intial;
+  @media (max-width: 1080px) {
     height: 100%;
-    margin-top: 5rem;
   }
 
   flex: 1;
@@ -34,11 +32,8 @@ export const CategoryCardContainer = styled(NavLink)`
   color: black;
 
   @media (max-width: 1080px) {
-    width: 15rem;
-  }
-
-  @media (max-width: 750px) {
-    height: 15rem;
+    width: 28rem;
+    height: 25rem;
   }
 
   h3 {

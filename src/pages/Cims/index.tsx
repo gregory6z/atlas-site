@@ -37,7 +37,6 @@ export function Cims() {
         <MainContent>
           <ContentBox>
             <h2>{t("cims")}</h2>
-
             <div className="buttons">
               <Button title={t("cims1")} onClick={handlePdfViewCimsInfo} />
               <Button title={t("cims2")} onClick={handlePdfFicheReflexe} />

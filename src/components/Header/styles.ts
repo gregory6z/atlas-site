@@ -7,6 +7,10 @@ export const HeaderContainer = styled.header`
   position: relative;
   border-bottom: #0369a1 1px solid;
 
+  @media screen and (max-width: 1080px) {
+    height: 8vh;
+  }
+
   display: flex;
   align-items: center;
 
@@ -27,7 +31,7 @@ export const HeaderContainer = styled.header`
     width: 100vw;
     padding: 0 10%;
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 1080px) {
       display: none;
     }
 
