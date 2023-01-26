@@ -11,6 +11,10 @@ export const SidebarContainer = styled.div`
   padding-left: 2.5rem;
   letter-spacing: 0.075rem;
 
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+
   @media screen and (max-width: 1680px) {
     gap: 0.5rem;
   }
@@ -18,6 +22,14 @@ export const SidebarContainer = styled.div`
   a {
     @media screen and (max-width: 1680px) {
       font-size: 1.4rem;
+    }
+
+    @media screen and (max-width: 1350px) {
+      font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: 1080px) {
+      font-size: 1rem;
     }
 
     text-decoration: none;

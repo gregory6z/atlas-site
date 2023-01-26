@@ -1,12 +1,13 @@
 import styled from "styled-components"
 
 export const AtlasContainer = styled.div`
+  @media screen and (max-width: 1350px) {
+    display: none;
+  }
+
   width: 20%;
   text-align: center;
   margin-top: 2%;
-
-  @media screen and (max-width: 1680px) {
-  }
 
   p {
     font-size: 1.6rem;

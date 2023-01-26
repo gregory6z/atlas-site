@@ -76,6 +76,7 @@ export const ContentBox = styled.div`
   padding: 2rem;
   position: relative;
   border: 0.5px solid rgb(218, 218, 218);
+
   h2 {
     font-size: 1.75rem;
     letter-spacing: 0.075rem;

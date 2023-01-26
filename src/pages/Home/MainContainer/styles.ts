@@ -2,6 +2,12 @@ import styled from "styled-components"
 import { NavLink } from "react-router-dom"
 
 export const MainContent = styled.main`
+  @media (max-width: 1350px) {
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
   flex: 1;
   display: flex;
   gap: 1rem;
@@ -21,10 +27,26 @@ export const CategoryCardContainer = styled(NavLink)`
   text-decoration: none;
   color: black;
 
+  @media screen and (max-width: 1080px) {
+    width: 14rem;
+  }
+
+  @media screen and (max-width: 1080px) {
+    width: 25rem;
+  }
+
   h3 {
     letter-spacing: 0.075rem;
     font-size: 1.6rem;
     margin-bottom: 0.75rem;
+
+    @media screen and (max-width: 1080px) {
+      font-size: 1.25rem;
+    }
+
+    @media screen and (max-width: 850px) {
+      font-size: 1.25rem;
+    }
   }
 
   img {

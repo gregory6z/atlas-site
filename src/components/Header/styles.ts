@@ -26,10 +26,18 @@ export const HeaderContainer = styled.header`
     justify-content: space-between;
     width: 100vw;
     padding: 0 10%;
+
+    @media screen and (max-width: 1350px) {
+      padding: 2rem;
+    }
   }
 
   .logoAtlasCarpiagne {
     position: absolute;
+
+    @media screen and (max-width: 1350px) {
+      width: 35rem;
+    }
 
     top: 95%;
     left: 50%;
@@ -65,11 +73,20 @@ export const FlagContainer = styled.button`
     @media screen and (max-width: 1680px) {
       width: 32px;
     }
+
+    @media screen and (max-width: 1350px) {
+      width: 20px;
+    }
   }
 
   @media screen and (max-width: 1680px) {
     width: 12rem;
     font-size: 1.25rem;
     height: 3.25rem;
+  }
+
+  @media screen and (max-width: 1350px) {
+    width: 10rem;
+    font-size: 1.25rem;
   }
 `

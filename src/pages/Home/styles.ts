@@ -19,11 +19,19 @@ export const HomeContainer = styled.div`
       gap: 0.5rem;
       justify-content: flex-end;
     }
+
+    @media screen and (max-width: 650px) {
+      display: none;
+    }
   }
   .copyright {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+
+    @media screen and (max-width: 650px) {
+      display: none;
+    }
   }
 `
 
