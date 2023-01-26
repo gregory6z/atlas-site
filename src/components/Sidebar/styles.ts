@@ -17,7 +17,7 @@ export const SidebarContainer = styled.div`
 
   a {
     @media screen and (max-width: 1680px) {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
     }
 
     text-decoration: none;
