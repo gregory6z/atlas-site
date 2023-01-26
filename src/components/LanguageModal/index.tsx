@@ -54,7 +54,7 @@ export function LanguageModal() {
       <Overlay />
       <Content>
         {/* <Dialog.Title>Choisise votre langue</Dialog.Title> */}
-        <h2>CHOISISE VOTRE LANGUE</h2>
+        <h2>CHOISIR VOTRE LANGUE</h2>
 
         <div className="flagContainer">
           {Languages.map((language) => (

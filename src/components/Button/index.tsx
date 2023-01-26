@@ -14,11 +14,19 @@ export function Button({ title, ...rest }: ButtonProps) {
 }
 export const ButtonContainer = styled.button`
   width: 48%;
+
+  @media screen and (max-width: 1680px) {
+    width: 25rem;
+  }
   height: 3.25rem;
   background: ${(props) => props.theme["blue-500"]};
   border: 0;
   border-radius: 8px;
   color: white;
+
+  white-space: nowrap;
+  border: 1px;
+  overflow: hidden;
 
   display: flex;
   align-items: center;

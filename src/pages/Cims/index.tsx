@@ -106,6 +106,11 @@ export const ButtonRetour = styled.div`
 
   cursor: pointer;
 
+  @media screen and (max-width: 1680px) {
+    font-size: 1rem;
+    height: 3rem;
+  }
+
   padding: 0.75rem 2rem;
   font-size: 1.25rem;
   background: ${(props) => props.theme["blue-700"]};

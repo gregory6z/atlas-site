@@ -5,14 +5,25 @@ export const AtlasContainer = styled.div`
   text-align: center;
   margin-top: 2%;
 
+  @media screen and (max-width: 1680px) {
+  }
+
   p {
     font-size: 1.6rem;
     font-weight: 500;
+
+    @media screen and (max-width: 1680px) {
+      font-size: 1.25rem;
+    }
   }
 
   h1 {
     margin-top: 1rem;
     font-size: 2.5rem;
+
+    @media screen and (max-width: 1680px) {
+      margin-top: 0.75rem;
+    }
   }
 
   .horaires {
@@ -23,6 +34,10 @@ export const AtlasContainer = styled.div`
     p {
       font-size: 2rem;
       font-weight: 700;
+
+      @media screen and (max-width: 1680px) {
+        font-size: 1.5rem;
+      }
     }
   }
 

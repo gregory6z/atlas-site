@@ -58,4 +58,18 @@ export const FlagContainer = styled.button`
   font-weight: 700;
 
   font-size: 1.5rem;
+
+  img {
+    width: 48px;
+
+    @media screen and (max-width: 1680px) {
+      width: 32px;
+    }
+  }
+
+  @media screen and (max-width: 1680px) {
+    width: 12rem;
+    font-size: 1.25rem;
+    height: 3.25rem;
+  }
 `

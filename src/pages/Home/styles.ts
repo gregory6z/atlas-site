@@ -8,6 +8,11 @@ export const HomeContainer = styled.div`
     margin-top: 1rem;
     padding: 0 2rem;
     color: ${(props) => props.theme["blue-500"]};
+
+    @media screen and (max-width: 1680px) {
+      margin-top: initial;
+    }
+
     h3 {
       display: flex;
       align-items: center;
