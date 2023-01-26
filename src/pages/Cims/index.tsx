@@ -92,6 +92,10 @@ export const ContentBox = styled.div`
 
     height: 70%;
     flex-wrap: wrap;
+
+    @media screen and (max-width: 1680px) {
+      gap: 1rem;
+    }
   }
 
   .buttons a {

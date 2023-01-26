@@ -17,6 +17,8 @@ export const ButtonContainer = styled.button`
 
   @media screen and (max-width: 1680px) {
     width: 25rem;
+    font-size: 1rem;
+    height: 2.75rem;
   }
   height: 3.25rem;
   background: ${(props) => props.theme["blue-500"]};
