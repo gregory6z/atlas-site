@@ -19,10 +19,6 @@ export const HomeContainer = styled.div`
       gap: 0.5rem;
       justify-content: flex-end;
     }
-
-    @media screen and (max-width: 650px) {
-      display: none;
-    }
   }
   .copyright {
     display: flex;
@@ -31,6 +27,11 @@ export const HomeContainer = styled.div`
 
     @media screen and (max-width: 650px) {
       display: none;
+    }
+  }
+
+  .copyright {
+    @media screen and (max-width: 650px) {
     }
   }
 `
