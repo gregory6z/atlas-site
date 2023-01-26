@@ -8,6 +8,12 @@ export const MainContent = styled.main`
     justify-content: center;
   }
 
+  @media (max-width: 750px) {
+    padding: intial;
+    height: 100%;
+    margin-top: 5rem;
+  }
+
   flex: 1;
   display: flex;
   gap: 1rem;
@@ -27,12 +33,12 @@ export const CategoryCardContainer = styled(NavLink)`
   text-decoration: none;
   color: black;
 
-  @media screen and (max-width: 1080px) {
-    width: 14rem;
+  @media (max-width: 1080px) {
+    width: 15rem;
   }
 
-  @media screen and (max-width: 1080px) {
-    width: 25rem;
+  @media (max-width: 750px) {
+    height: 15rem;
   }
 
   h3 {

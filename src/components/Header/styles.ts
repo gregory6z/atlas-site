@@ -27,6 +27,10 @@ export const HeaderContainer = styled.header`
     width: 100vw;
     padding: 0 10%;
 
+    @media screen and (max-width: 750px) {
+      display: none;
+    }
+
     @media screen and (max-width: 1350px) {
       padding: 2rem;
     }
