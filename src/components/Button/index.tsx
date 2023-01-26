@@ -13,7 +13,7 @@ export function Button({ title, ...rest }: ButtonProps) {
   )
 }
 export const ButtonContainer = styled.button`
-  width: 32rem;
+  width: 48%;
   height: 3.25rem;
   background: ${(props) => props.theme["blue-500"]};
   border: 0;

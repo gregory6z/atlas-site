@@ -72,6 +72,7 @@ export const ContentBox = styled.div`
   background: #fff;
   border-radius: 8px;
   width: 100%;
+  height: 60vh;
   padding: 2rem;
   position: relative;
   border: 0.5px solid rgb(218, 218, 218);
@@ -82,12 +83,15 @@ export const ContentBox = styled.div`
 
   .buttons {
     margin-top: 2rem;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
+
+    width: 90%;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    overflow: auto;
-    height: 100%;
+    gap: 1.5rem;
+
+    height: 70%;
+    flex-wrap: wrap;
   }
 
   .buttons a {
