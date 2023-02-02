@@ -123,7 +123,7 @@ export const ButtonRetour = styled.div`
 
   cursor: pointer;
 
-  @media screen and (max-width: 1680px) {
+  @media (max-width: 1680px) {
     font-size: 1rem;
     height: 3rem;
   }
