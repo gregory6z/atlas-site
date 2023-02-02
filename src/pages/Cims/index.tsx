@@ -76,13 +76,18 @@ export const ContentBox = styled.div`
   position: relative;
   border: 0.5px solid rgb(218, 218, 218);
 
-  h2 {
+  @media (max-width: 1080px) {
+    padding: 4rem 2rem;
+  }
+
+  > h2 {
     font-size: 1.75rem;
     letter-spacing: 0.075rem;
 
     @media (max-width: 1080px) {
       text-align: center;
       font-size: 3.5rem;
+      margin-bottom: 5rem;
     }
   }
 

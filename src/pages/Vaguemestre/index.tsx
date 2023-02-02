@@ -69,5 +69,9 @@ export const VaguemestreContainer = styled.div`
     font-size: 1.25rem;
     margin-block: 1rem;
     opacity: 60%;
+
+    @media (max-width: 1080px) {
+      font-size: 1.75rem;
+    }
   }
 `
