@@ -79,22 +79,30 @@ export const ContentBox = styled.div`
   h2 {
     font-size: 1.75rem;
     letter-spacing: 0.075rem;
+
+    @media (max-width: 1080px) {
+      text-align: center;
+      font-size: 3.5rem;
+    }
   }
 
   .buttons {
     margin-top: 2rem;
     margin-left: 2rem;
 
-    width: 90%;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 
-    height: 70%;
     flex-wrap: wrap;
 
-    @media screen and (max-width: 1680px) {
+    @media (max-width: 1680px) {
       gap: 1rem;
+    }
+
+    @media (max-width: 1080px) {
+      gap: 2.25rem;
+      width: 100%;
     }
   }
 

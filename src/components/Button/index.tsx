@@ -15,11 +15,19 @@ export function Button({ title, ...rest }: ButtonProps) {
 export const ButtonContainer = styled.button`
   width: 48%;
 
-  @media screen and (max-width: 1680px) {
+  @media (max-width: 1680px) {
     width: 25rem;
     font-size: 1rem;
     height: 2.75rem;
   }
+
+  @media (max-width: 1080px) {
+    width: 100%;
+    font-size: 2.5rem;
+    padding: 0 2.5rem;
+    height: 4.5rem;
+  }
+
   height: 3.25rem;
   background: ${(props) => props.theme["blue-500"]};
   border: 0;
@@ -36,4 +44,9 @@ export const ButtonContainer = styled.button`
   padding: 0 1rem;
 
   font-size: 1.25rem;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 50rem;
 `

@@ -19,6 +19,7 @@ export const HeaderContainer = styled.header`
     height: 7rem;
     /* margin-left: 5vw; */
   }
+
   .logoFlemme {
     width: 5rem;
     height: 7rem;
