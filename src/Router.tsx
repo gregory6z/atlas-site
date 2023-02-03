@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom"
+import { useEffect } from "react"
+import { Route, Routes, useNavigate } from "react-router-dom"
 import { DefaultLayout } from "./layouts/DefaultLayout"
 import { Ccs } from "./pages/Ccs"
 import { Cims } from "./pages/Cims"
@@ -16,6 +17,14 @@ import { Pdf } from "./pages/Pdf"
 import { Vaguemestre } from "./pages/Vaguemestre"
 
 export function Router() {
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    setTimeout(() => {
+      navigate("/")
+    }, 1000 * 60 * 15)
+  }, [navigate])
+
   return (
     <Routes>
       <Route path="/" element={<DefaultLayout />}>
