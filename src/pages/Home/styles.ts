@@ -13,6 +13,10 @@ export const HomeContainer = styled.div`
       margin-top: initial;
     }
 
+    @media (max-width: 1080px) {
+      display: none;
+    }
+
     h3 {
       display: flex;
       align-items: center;

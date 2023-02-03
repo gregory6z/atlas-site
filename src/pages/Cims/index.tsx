@@ -128,6 +128,12 @@ export const ButtonRetour = styled.div`
     height: 3rem;
   }
 
+  @media (max-width: 1080px) {
+    width: 15rem;
+    height: 4.25rem;
+    font-size: 2rem;
+  }
+
   padding: 0.75rem 2rem;
   font-size: 1.25rem;
   background: ${(props) => props.theme["blue-700"]};

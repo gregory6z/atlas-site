@@ -11,7 +11,7 @@ export const SidebarContainer = styled.div`
   padding-left: 2.5rem;
   letter-spacing: 0.075rem;
 
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: 980px) {
     display: none;
   }
 
