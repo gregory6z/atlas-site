@@ -1,14 +1,21 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import { VitePWA } from 'vite-plugin-pwa'
-
+import { defineConfig } from "vite"
+import react from "@vitejs/plugin-react"
+import { VitePWA } from "vite-plugin-pwa"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),
+  plugins: [
+    react(),
     VitePWA({
-      registerType: 'autoUpdate',
-      includeAssets: ['pspdfkit.wasm', "pspdfkit.js","public","*.pdf"],
+      registerType: "autoUpdate",
+      includeAssets: [
+        "pspdfkit.wasm",
+        "pspdfkit.js",
+        "public",
+        "*.pdf",
+        "*.svg",
+        "*.png",
+      ],
     }),
-    ],
+  ],
 })
