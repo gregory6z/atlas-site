@@ -45,8 +45,8 @@ export const CategoryCardContainer = styled(NavLink)`
       font-size: 1.25rem;
     }
 
-    @media screen and (max-width: 850px) {
-      font-size: 1.25rem;
+    @media (max-width: 1080px) {
+      font-size: 2.25rem;
     }
   }
 
