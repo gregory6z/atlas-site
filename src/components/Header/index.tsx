@@ -17,6 +17,7 @@ import { LanguageModal } from "../LanguageModal"
 import { useContext } from "react"
 import { PdfContext } from "../../context"
 import { List } from "phosphor-react"
+import { NavBarModal } from "../NavBarModal"
 
 export function Header() {
   const { lang } = useContext(PdfContext)
@@ -47,6 +48,15 @@ export function Header() {
 
         <Dialog.Root>
           <Dialog.Trigger asChild>
+            <MenuMobile>
+              <List size={50} weight="bold" />
+            </MenuMobile>
+          </Dialog.Trigger>
+          <NavBarModal />
+        </Dialog.Root>
+
+        <Dialog.Root>
+          <Dialog.Trigger asChild>
             <FlagContainer>
               Langage
               <img src={String(lang)} alt="" />
@@ -58,10 +68,6 @@ export function Header() {
               <img src={String(lang)} alt="" />
             </FlagContainerMobile>
           </Dialog.Trigger>
-
-          <MenuMobile>
-            <List size={50} weight="bold" />
-          </MenuMobile>
 
           <LanguageModal />
         </Dialog.Root>
