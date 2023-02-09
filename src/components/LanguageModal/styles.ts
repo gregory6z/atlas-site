@@ -60,6 +60,7 @@ export const CloseButtonMobile = styled(Dialog.Close)`
   @media screen and (min-width: 1080px) {
     display: none;
   }
+  color: black;
 
   position: absolute;
   background: transparent;
@@ -86,7 +87,7 @@ export const FlagButton = styled(Dialog.Close)`
       width: 56px;
     }
   }
-
+  color: black;
   background: transparent;
   border: 0;
   width: 12rem;
