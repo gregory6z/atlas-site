@@ -71,8 +71,6 @@ export function Header() {
         className="logoAtlasCarpiagne"
         src={logoAtlasCarpiagne}
         alt=""
-        width="100%"
-        height="100%"
       />
     </HeaderContainer>
   )

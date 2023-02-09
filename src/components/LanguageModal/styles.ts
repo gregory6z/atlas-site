@@ -10,6 +10,11 @@ export const Overlay = styled(Dialog.Overlay)`
 `
 
 export const Content = styled(Dialog.Content)`
+  @media screen and (max-width: 1080px) {
+    min-width: 100%;
+    min-height: 70%;
+  }
+
   min-width: 32rem;
   min-height: 15rem;
   border-radius: 6px;
@@ -22,14 +27,27 @@ export const Content = styled(Dialog.Content)`
 
   h2 {
     margin-bottom: 4rem;
+
+    @media screen and (max-width: 1080px) {
+      font-size: 2.25rem;
+    }
   }
 
   .flagContainer {
     display: flex;
+
+    @media screen and (max-width: 1080px) {
+      flex-direction: column;
+      gap: 1rem;
+    }
   }
 `
 
 export const CloseButton = styled(Dialog.Close)`
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+
   position: absolute;
   background: transparent;
   border: 0;
@@ -38,7 +56,37 @@ export const CloseButton = styled(Dialog.Close)`
   line-height: 0;
   cursor: pointer;
 `
+export const CloseButtonMobile = styled(Dialog.Close)`
+  @media screen and (min-width: 1080px) {
+    display: none;
+  }
+
+  position: absolute;
+  background: transparent;
+  border: 0;
+  top: 2.5rem;
+  right: 2.5rem;
+  line-height: 0;
+  cursor: pointer;
+`
+
 export const FlagButton = styled(Dialog.Close)`
+  @media screen and (max-width: 1080px) {
+    font-size: 3rem;
+    width: 100%;
+    align-items: center;
+    justify-content: initial;
+    padding: 3rem;
+    gap: 2.5rem;
+  }
+
+  img {
+    width: 38px;
+    @media screen and (max-width: 1080px) {
+      width: 56px;
+    }
+  }
+
   background: transparent;
   border: 0;
   width: 12rem;

@@ -1,6 +1,12 @@
 import * as Dialog from "@radix-ui/react-dialog"
 import { X } from "phosphor-react"
-import { CloseButton, Content, FlagButton, Overlay } from "./styles"
+import {
+  CloseButton,
+  CloseButtonMobile,
+  Content,
+  FlagButton,
+  Overlay,
+} from "./styles"
 import fr from "../../assets/flags/fr.svg"
 import es from "../../assets/flags/es.svg"
 import pt from "../../assets/flags/br.svg"
@@ -65,7 +71,7 @@ export function LanguageModal() {
               }}
               key={language.value}
             >
-              <img src={language.flag} alt="" width="38px" />
+              <img src={language.flag} alt="" />
               {language.name}
             </FlagButton>
           ))}
@@ -73,6 +79,10 @@ export function LanguageModal() {
           <CloseButton>
             <X size="24" />
           </CloseButton>
+
+          <CloseButtonMobile>
+            <X size="52" />
+          </CloseButtonMobile>
         </div>
       </Content>
     </Dialog.Portal>
