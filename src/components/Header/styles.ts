@@ -115,7 +115,7 @@ export const FlagContainerMobile = styled.button`
   background: transparent;
   border: 0;
   position: absolute;
-  padding: 1.25rem;
+  padding: 1.75rem;
 
   top: 95%;
   left: 88%;
@@ -145,7 +145,7 @@ export const MenuMobile = styled.button`
   background: transparent;
   border: 0;
   position: absolute;
-  padding: 1.25rem;
+  padding: 1.75rem;
 
   top: 95%;
   left: 12%;
