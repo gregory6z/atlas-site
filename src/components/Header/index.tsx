@@ -72,12 +72,13 @@ export function Header() {
           <LanguageModal />
         </Dialog.Root>
       </div>
-
-      <LazyLoadImage
-        className="logoAtlasCarpiagne"
-        src={logoAtlasCarpiagne}
-        alt=""
-      />
+      <NavLink to="/">
+        <LazyLoadImage
+          className="logoAtlasCarpiagne"
+          src={logoAtlasCarpiagne}
+          alt=""
+        />
+      </NavLink>
     </HeaderContainer>
   )
 }
