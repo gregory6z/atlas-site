@@ -9,9 +9,9 @@ export const HomeContainer = styled.div`
     padding: 0 2rem;
     color: ${(props) => props.theme["blue-500"]};
 
-    @media screen and (max-width: 1680px) {
+    /* @media screen and (max-width: 1680px) {
       margin-top: initial;
-    }
+    } */
 
     @media (max-width: 1080px) {
       display: none;

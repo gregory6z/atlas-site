@@ -39,8 +39,7 @@ export const HeaderContainer = styled.header`
 
   .logoAtlasCarpiagne {
     position: absolute;
-    z-index: 200;
-
+    z-index: 2;
     @media screen and (max-width: 1350px) {
       width: 35rem;
     }
