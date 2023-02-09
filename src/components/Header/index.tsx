@@ -49,7 +49,7 @@ export function Header() {
         <Dialog.Root>
           <Dialog.Trigger asChild>
             <MenuMobile>
-              <List size={50} weight="bold" />
+              <List size={50} weight="bold" color="#000" />
             </MenuMobile>
           </Dialog.Trigger>
           <NavBarModal />
