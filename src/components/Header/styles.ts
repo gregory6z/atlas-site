@@ -32,10 +32,6 @@ export const HeaderContainer = styled.header`
     width: 100vw;
     padding: 0 10%;
 
-    @media screen and (max-width: 1080px) {
-      display: none;
-    }
-
     @media screen and (max-width: 1350px) {
       padding: 2rem;
     }
@@ -57,10 +53,17 @@ export const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
     gap: 2.5rem;
+    @media screen and (max-width: 1080px) {
+      display: none;
+    }
   }
 `
 
 export const FlagContainer = styled.button`
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+
   background: transparent;
   border: 0;
   width: 14.6rem;
@@ -98,4 +101,59 @@ export const FlagContainer = styled.button`
     width: 10rem;
     font-size: 1.25rem;
   }
+`
+
+export const FlagContainerMobile = styled.button`
+  @media screen and (min-width: 1080px) {
+    display: none;
+  }
+
+  background: transparent;
+  border: 0;
+  position: absolute;
+  padding: 1.25rem;
+
+  top: 95%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 8px;
+  z-index: 200;
+  font-weight: 700;
+
+  font-size: 1.5rem;
+
+  img {
+    width: 52px;
+  }
+`
+
+export const MenuMobile = styled.button`
+  @media screen and (min-width: 1080px) {
+    display: none;
+  }
+
+  background: transparent;
+  border: 0;
+  position: absolute;
+  padding: 1.25rem;
+
+  top: 95%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 8px;
+  z-index: 200;
+  font-weight: 700;
+  font-size: 1.5rem;
 `

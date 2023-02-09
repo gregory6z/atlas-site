@@ -1,4 +1,9 @@
-import { FlagContainer, HeaderContainer } from "./styles"
+import {
+  FlagContainer,
+  FlagContainerMobile,
+  HeaderContainer,
+  MenuMobile,
+} from "./styles"
 
 import logoAtlasCarpiagne from "../../assets/logo-atlas-carpiagne.svg"
 import logoAtlas from "../../assets/logo-atlas.png"
@@ -11,6 +16,7 @@ import * as Dialog from "@radix-ui/react-dialog"
 import { LanguageModal } from "../LanguageModal"
 import { useContext } from "react"
 import { PdfContext } from "../../context"
+import { List } from "phosphor-react"
 
 export function Header() {
   const { lang } = useContext(PdfContext)
@@ -46,6 +52,17 @@ export function Header() {
               <img src={String(lang)} alt="" />
             </FlagContainer>
           </Dialog.Trigger>
+
+          <Dialog.Trigger asChild>
+            <FlagContainerMobile>
+              <img src={String(lang)} alt="" />
+            </FlagContainerMobile>
+          </Dialog.Trigger>
+
+          <MenuMobile>
+            <List size={50} weight="bold" />
+          </MenuMobile>
+
           <LanguageModal />
         </Dialog.Root>
       </div>
