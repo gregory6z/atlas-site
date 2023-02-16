@@ -30,7 +30,7 @@ export const Content = styled(Dialog.Content)`
     margin-bottom: 4rem;
 
     @media screen and (max-width: 1080px) {
-      font-size: 2.25rem;
+      font-size: 3rem;
     }
   }
 
