@@ -11,14 +11,15 @@ export const Overlay = styled(Dialog.Overlay)`
 
 export const Content = styled(Dialog.Content)`
   @media screen and (max-width: 1080px) {
-    min-width: 100%;
-    min-height: 70%;
+    min-width: 90%;
+
+    padding: 5rem 3rem;
   }
 
   min-width: 32rem;
   min-height: 15rem;
   border-radius: 6px;
-  padding: 5rem 4rem;
+  padding: 2.5rem 3rem;
   background: white;
   position: fixed;
   top: 50%;
