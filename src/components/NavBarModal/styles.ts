@@ -18,7 +18,8 @@ export const Content = styled(Dialog.Content)`
   min-width: 32rem;
   min-height: 15rem;
   border-radius: 6px;
-  padding: 2.5rem 3rem;
+  padding: 5rem 5rem;
+
   background: white;
   position: fixed;
   top: 50%;
