@@ -34,6 +34,9 @@ export function Pdf() {
       <PdfContainer>
         <button onClick={handleReturn}>
           <ArrowLeft size="22" weight="bold" />
+          <p>
+            <ArrowLeft size="50" weight="bold" />
+          </p>
         </button>
         <Viewer fileUrl={file} />
       </PdfContainer>

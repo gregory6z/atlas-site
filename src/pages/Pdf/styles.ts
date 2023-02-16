@@ -29,5 +29,20 @@ export const PdfContainer = styled.div`
     position: fixed;
     z-index: 2000;
     bottom: 4rem;
+
+    @media (max-width: 1080px) {
+      padding: 2rem 2.75rem;
+      > svg {
+        display: none;
+      }
+    }
+
+    p {
+      display: none;
+      @media (max-width: 1080px) {
+        font-size: 2.5rem;
+        display: initial;
+      }
+    }
   }
 `
