@@ -32,6 +32,8 @@ export const PdfContainer = styled.div`
 
     @media (max-width: 1080px) {
       padding: 2rem 2.75rem;
+      margin-left: 5rem;
+      bottom: 6rem;
       > svg {
         display: none;
       }
