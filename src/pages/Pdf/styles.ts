@@ -17,7 +17,12 @@ export const HeaderPdf = styled.div`
 export const PdfContainer = styled.div`
   max-width: 70rem;
   margin: 3rem auto 5rem;
-  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  border: 1px solid rgb(218, 218, 218);
+  padding: 5rem 2rem;
+  background: white;
+  border-radius: 5px;
 
   button {
     border: 2px solid white;
