@@ -71,7 +71,7 @@ export const ContentBox = styled.div`
   background: #fff;
   border-radius: 8px;
   width: 100%;
-  height: 60vh;
+  min-height: 60vh;
   padding: 2rem;
   position: relative;
   border: 0.5px solid rgb(218, 218, 218);
