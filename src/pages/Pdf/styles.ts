@@ -21,8 +21,13 @@ export const PdfContainer = styled.div`
   width: 100%;
   border: 1px solid rgb(218, 218, 218);
   padding: 5rem 2rem;
+
   background: white;
   border-radius: 5px;
+
+  @media (max-width: 1080px) {
+    padding: 5rem 0rem;
+  }
 
   button {
     border: 2px solid white;
