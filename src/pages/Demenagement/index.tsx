@@ -50,6 +50,7 @@ export function Demenagement() {
               <Button title={t("move1")} onClick={handleTransBagageNav} />
               <Button title={t("move2")} onClick={handleDroitBagageNav} />
               <Button title={t("move3")} onClick={handlePFMDNav} />
+
               <NavLink to="/demenagement/metropole">
                 <Button title={t("move4")} />
               </NavLink>
