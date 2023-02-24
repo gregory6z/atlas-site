@@ -27,6 +27,11 @@ export function Habillement() {
     navigate("/pdf")
   }
 
+  function handleNavAbilis() {
+    changePdf("abilis.pdf")
+    navigate("/pdf")
+  }
+
   return (
     <HomeContainer>
       <HomeContentHeader>
@@ -36,6 +41,7 @@ export function Habillement() {
             <h2>{t("clothing")}</h2>
 
             <div className="buttons">
+              <Button title={"Abilis WebSPEC"} onClick={handleNavAbilis} />
               <Button title={t("clothing1")} onClick={handleNavPdfHab} />
             </div>
             <ButtonRetour onClick={handleReturnPage}>

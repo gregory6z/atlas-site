@@ -6,6 +6,7 @@ export const HeaderPdf = styled.div`
   position: sticky;
   top: 0;
   left: 0;
+
   z-index: 100;
 
   background: ${(props) => props.theme["blue-500"]};

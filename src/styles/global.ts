@@ -6,12 +6,15 @@ export const GlobalStyle = createGlobalStyle`
     padding:0;
     box-sizing:border-box; 
     -webkit-font-smoothing: antialiased;
+
     
   }
 
  
   body{
     background: ${(props) => props.theme["blue-300"]};
+ 
+
 
     font-family: 'Poppins', sans-serif;
 
