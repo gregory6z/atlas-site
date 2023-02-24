@@ -2,6 +2,8 @@ import { CategoryCardContainer } from "../styles"
 
 import { LazyLoadImage } from "react-lazy-load-image-component"
 import "react-lazy-load-image-component/src/effects/blur.css"
+import "react-lazy-load-image-component/src/effects/opacity.css"
+import "react-lazy-load-image-component/src/effects/black-and-white.css"
 
 interface CategoryCardProps {
   category?: string | null
@@ -18,7 +20,7 @@ export function CategoryCard({ category, image, link }: CategoryCardProps) {
         alt=""
         width="100%"
         height="85%"
-        effect="blur"
+        effect="black-and-white"
       />
     </CategoryCardContainer>
   )

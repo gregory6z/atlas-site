@@ -10,7 +10,7 @@ export function Home() {
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
-    const timeOut = setTimeout(() => setIsLoading(false), 500)
+    const timeOut = setTimeout(() => setIsLoading(false), 0)
     return () => clearTimeout(timeOut)
   }, [])
   return (
