@@ -29,6 +29,10 @@ export function Cims() {
     changePdf("cims-reflexe.pdf")
     navigate("/pdf")
   }
+  function handlePdfObtenir() {
+    changePdf("cims-3.pdf")
+    navigate("/pdf")
+  }
 
   return (
     <HomeContainer>
@@ -38,6 +42,10 @@ export function Cims() {
           <ContentBox>
             <h2>{t("cims")}</h2>
             <div className="buttons">
+              <Button
+                title={"Obtenir ou renouveler une carte CIMS"}
+                onClick={handlePdfObtenir}
+              />
               <Button title={t("cims1")} onClick={handlePdfViewCimsInfo} />
               <Button title={t("cims2")} onClick={handlePdfFicheReflexe} />
             </div>
