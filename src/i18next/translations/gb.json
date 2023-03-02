@@ -10,10 +10,12 @@
     "cims": "MILITARY ID CARD",
     "cims1": "CIMS Card Information", 
     "cims2": "CIMS order form",
+    "cims3":"Obtain or renew a card CIMS",
 
     "ccs": "CIRCULATION CARD",
     "ccs1": "Guide CCS",
     "ccs2": "Family card order",
+
 
     "om": "MISSION ORDER",
     "om1": "Presentation of an Order of mission",

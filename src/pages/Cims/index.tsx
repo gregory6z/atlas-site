@@ -42,10 +42,7 @@ export function Cims() {
           <ContentBox>
             <h2>{t("cims")}</h2>
             <div className="buttons">
-              <Button
-                title={"Obtenir ou renouveler une carte CIMS"}
-                onClick={handlePdfObtenir}
-              />
+              <Button title={t("cims3")} onClick={handlePdfObtenir} />
               <Button title={t("cims1")} onClick={handlePdfViewCimsInfo} />
               <Button title={t("cims2")} onClick={handlePdfFicheReflexe} />
             </div>
